@@ -18,24 +18,15 @@ Background correction (MM&PM, MAS5, RMA, GCRMA), Normalization
          (scaling, cyclic Loess and Quantile normalization), Summarization (mean,
          median, weighted)
        ii. Log2 transformation (log2())
-iii. R packages: affy*, limma, gcrma*, beadarray, lumi
-c. Gene annotation and filtering
-i. R packages: filtergene*, annotate*, WGCNA
+3. R packages: affy*, limma, gcrma*, beadarray, lumi
+Gene annotation and filtering,
+R packages: filtergene*, annotate*, WGCNA
 
-2. Visualization of data on PCA
-a. R packages: stats::prcomp()]*, factoextra*, dudi.pca
+# Visualization of data on PCA
+1. R packages: stats::prcomp()]*, factoextra*, dudi.pca
 
-3. Supervised analysis
-a. Differential gene expression analysis
-i. R packages: limma*, samr, ClassComparison, p.adjust()
-b. Gene annotation and filtering
-i. R packages: filtergene*, annotate*, WGCNA
-c. Visualization: heatmaps, PCA and violinplots
-i. R packages: pheatmap*, ComplexHeatmap, factoextra*, ggplot2
+# Supervised analysis
+Differential gene expression analysis, R packages: limma*, samr, ClassComparison, p.adjust(), Gene annotation and filtering, R packages: filtergene*, annotate*, WGCNA, Visualization: heatmaps, PCA and violinplots, R packages: pheatmap*, ComplexHeatmap, factoextra*, ggplot2
 
-4. Functional analysis
-a. R package: clusterprofiler*, GOplot, enrichR
-b. External tools: enrichR, GSEA, stringDB
-c. Survival analysis
-i. External tools (GEPIA)
-ii. R package (survminer)
+# Functional analysis
+R package: clusterprofiler*, GOplot, enrichR, External tools: enrichR, GSEA, stringDB, Survival analysis, External tools (GEPIA), R package (survminer)
