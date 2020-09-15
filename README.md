@@ -4,8 +4,8 @@ Colorectal cancer (CRC) is one of the leading causes of cancer-related deaths wo
 
 Identifying new prognostic biomarkers is essential for CRC, as this contributes to exploring the mechanisms of metastasis as well as surveying candidate gene targets for therapy.
 
-Steps of microarray data analysis
-# Data preparation
+# Steps of microarray data analysis
+## Data preparation
 
 1. Quality control
 Single-array metrics (RNA degradation, hybridization, spike-in),
@@ -22,11 +22,11 @@ Background correction (MM&PM, MAS5, RMA, GCRMA), Normalization
 Gene annotation and filtering,
 R packages: filtergene*, annotate*, WGCNA
 
-# Visualization of data on PCA
+## Visualization of data on PCA
 1. R packages: stats::prcomp()]*, factoextra*, dudi.pca
 
-# Supervised analysis
+## Supervised analysis
 Differential gene expression analysis, R packages: limma*, samr, ClassComparison, p.adjust(), Gene annotation and filtering, R packages: filtergene*, annotate*, WGCNA, Visualization: heatmaps, PCA and violinplots, R packages: pheatmap*, ComplexHeatmap, factoextra*, ggplot2
 
-# Functional analysis
+## Functional analysis
 R package: clusterprofiler*, GOplot, enrichR, External tools: enrichR, GSEA, stringDB, Survival analysis, External tools (GEPIA), R package (survminer)
