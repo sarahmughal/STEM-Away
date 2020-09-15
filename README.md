@@ -5,14 +5,16 @@ Colorectal cancer (CRC) is one of the leading causes of cancer-related deaths wo
 Identifying new prognostic biomarkers is essential for CRC, as this contributes to exploring the mechanisms of metastasis as well as surveying candidate gene targets for therapy.
 
 Steps of microarray data analysis
-1. Data preparation
-   a. Quality control
-       i. Single-array metrics (RNA degradation, hybridization, spike-in)
-       ii. Multi-array metrics (boxplots, clustering, RLE, NUSE)
-       iii. R packages: simpleaffy*, affyPLM and arrayQualityMetrics, Qcmetrics,
-affyQCReport
-   b. Data preprocessing
-       i. Background correction (MM&PM, MAS5, RMA, GCRMA), Normalization
+# Data preparation
+
+1. Quality control
+Single-array metrics (RNA degradation, hybridization, spike-in),
+Multi-array metrics (boxplots, clustering, RLE, NUSE),
+R packages: simpleaffy*, affyPLM and arrayQualityMetrics, Qcmetrics,
+affyQCReport,
+
+2. Data preprocessing
+Background correction (MM&PM, MAS5, RMA, GCRMA), Normalization
          (scaling, cyclic Loess and Quantile normalization), Summarization (mean,
          median, weighted)
        ii. Log2 transformation (log2())
