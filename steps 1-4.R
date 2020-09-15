@@ -71,16 +71,9 @@ library(grid)
 library(gridExtra)
 
 pca_plot_raw<- ggplot(more2_data_raw, aes(x = PC1, y = PC2, colour=group))
-+
   ggtitle("Raw PCA plot") +
   geom_point()
 pca_plot_raw
-
-
-
-
-
-
 
 raw <- ReadAffy(celfile.path = "~/Desktop/week_3/GSE32323_RAW")
 normalized <- rma(raw)
@@ -88,16 +81,4 @@ prcompdata <- prcomp(normalized, scale. = FALSE, center = FALSE)
 library(ggplot2)
 df_norm <- as.data.frame(exprs(normalized))
 ggplot(df_norm, aes(x = PC1, y = PC2)) + geom_point()
-
-
-
-
-
-
-
-
-
-
-
-
 
